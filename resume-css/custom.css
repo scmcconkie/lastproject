@@ -1,0 +1,23 @@
+/* Custom styles for social icon spacing and appearance */
+.social-icons{
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+.social-icons .social-icon{
+  color: #fff;
+  background: var(--bs-primary);
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.social-icons .social-icon i{
+  font-size: 0.9rem;
+}
+.social-icons .social-icon:hover{
+  opacity: 0.9;
+}

@@ -1,0 +1,122 @@
+/* Basic CSS for MTB Mechanic Guide */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+    background-color: lightgray;
+}
+
+header {
+    background-color: #002E5D; /* BYU Blue */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main h1 {
+    color: #002E5D;
+    border-bottom: 2px solid #002E5D;
+    padding-bottom: 10px;
+}
+
+main {
+    margin: 20px 15%;
+    text-align: left;
+}
+
+.content-block {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.intro-section {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.intro-letter {
+    flex: 2 1 60%;
+}
+
+.intro-photo {
+    flex: 1 1 30%;
+    max-width: 320px;
+}
+
+.intro-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.repair-checklist {
+    margin-bottom: 30px;
+}
+
+.repair-checklist h2 {
+    color: #002E5D;
+    border-bottom: 2px solid #002E5D;
+    padding-bottom: 10px;
+}
+
+.repair-checklist ol {
+    padding-left: 20px;
+}
+
+.repair-checklist li {
+    margin-bottom: 10px;
+}
+
+.youtube-video {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.youtube-video iframe {
+    width: 560px;
+    height: 315px;
+    max-width: 100%;
+}
+
+.tableauPlaceholder {
+    margin: 10px auto 0;
+    text-align: center;
+    max-width: 100%;
+}
+
+.links-section {
+    margin-top: 0;
+    padding-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    text-align: left;
+}
+
+.links-section h2 {
+    color: #002E5D;
+    border-bottom: 2px solid #002E5D;
+    padding-bottom: 10px;
+}
+
+.links-section a {
+    display: inline-block;
+    color: #002E5D;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.links-section a:hover {
+    text-decoration: underline;
+}
